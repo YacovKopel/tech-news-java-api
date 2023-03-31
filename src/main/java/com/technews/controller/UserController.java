@@ -1,7 +1,9 @@
 package com.technews.controller;
 
 import com.technews.models.Post;
+import com.technews.models.User;
 import com.technews.repository.VoteRepository;
+import com.technews.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.bcrypt.BCrypt;
@@ -10,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public enum UserController {
+public class UserController {
     @Autowired
     UserRepository repository;
 
