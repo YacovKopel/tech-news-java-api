@@ -1,4 +1,4 @@
-package com.technews.models;
+package com.technews.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;

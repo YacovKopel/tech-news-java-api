@@ -1,8 +1,8 @@
 package com.technews.controller;
 
-import com.technews.models.Post;
-import com.technews.models.Vote;
-import com.technews.models.User;
+import com.technews.model.Post;
+import com.technews.model.Vote;
+import com.technews.model.User;
 import com.technews.repository.PostRepository;
 import com.technews.repository.UserRepository;
 import com.technews.repository.VoteRepository;

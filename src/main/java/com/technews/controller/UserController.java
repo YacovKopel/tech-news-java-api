@@ -1,7 +1,7 @@
 package com.technews.controller;
 
-import com.technews.models.Post;
-import com.technews.models.User;
+import com.technews.model.Post;
+import com.technews.model.User;
 import com.technews.repository.VoteRepository;
 import com.technews.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
